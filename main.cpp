@@ -4,13 +4,16 @@
 #include <SDL2/SDL.h>
 #include <iostream>
 
+const int SCREEN_WIDTH = 640;
+const int SCREEN_HEIGHT = 480;
+
 int main(int argc, char *argv[])
 {
   printf("%s\n", sqlite3_libversion());
 
   SDL_Init(SDL_INIT_VIDEO);
 
-  SDL_Window *window = SDL_CreateWindow("Game", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 640, 480, 0);
+  SDL_Window *window = SDL_CreateWindow("Kenongo", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, 0);
   SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
   SDL_Event input;
