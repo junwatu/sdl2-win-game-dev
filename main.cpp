@@ -1,5 +1,5 @@
 // main.cpp
-#include <sqlite3.h>
+
 #include <stdio.h>
 #include <SDL2/SDL.h>
 #include <iostream>
@@ -9,7 +9,7 @@ const int SCREEN_HEIGHT = 480;
 
 int main(int argc, char *argv[])
 {
-  printf("%s\n", sqlite3_libversion());
+  //printf("%s\n", sqlite3_libversion());
 
   SDL_Init(SDL_INIT_VIDEO);
 
