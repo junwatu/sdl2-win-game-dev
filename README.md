@@ -1,6 +1,6 @@
 # SDL2 Window
 
-Merupakan source code dari artikel di [medium.com/pemrograman](https://medium.com/pemrograman)
+Template untuk pemgembangan game memakai SDL2 di Windows
 
 ## Harus di Install
 - Microsoft C++ Build Tools
